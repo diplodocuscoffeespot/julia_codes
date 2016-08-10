@@ -1,5 +1,5 @@
 function kdensity(x)
-  #using Nadaraya Watson and Silverman Bandwidth, only single variable conditioning
+  #kernel density estimator
   #estimates a kernel density with gaussian weighting
   fhat=zeros(size(x,1),1);
   #use silverman's rule to estimate the bandwidth
